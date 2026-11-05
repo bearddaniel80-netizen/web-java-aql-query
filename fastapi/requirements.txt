@@ -1,0 +1,18 @@
+# framework
+fastapi
+
+# prod server
+uvicorn[standard]
+
+# file upload / download storage
+minio
+
+# Deps from aql, aql_link, and compliance
+# console pretty print
+rich
+
+# used for CLI functions
+typer
+
+# used to make aegis whl file
+build
